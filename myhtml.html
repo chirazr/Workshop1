@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- tableau html-->
+<html>
+
+<head> 
+  <title> My tab </title>   
+</head>
+
+<body> 
+<section > 
+<h2> Table</h2>
+    <table> 
+    <tr> 
+       <td> A1</td>
+       <td> 100</td>
+       <td> Un</td>
+       <td> 1000.25</td>
+    </tr>
+    <tr> 
+        <td> B1</td>
+        <td> 200</td>
+        <td> Deux </td>
+        <td> 2000.00</td>
+     </tr>
+     <tr> 
+        <td> C1</td>
+        <td> 300</td>
+        <td> trois</td>
+        <td> 3000.00</td>
+     </tr>
+</table>
+</section>
+
+<section>
+<h2> Formulaire </h2>
+<h5> Enregistrement d'un étudiant </h5>
+
+<form> 
+    <label for="nom"> Nom</label>
+    <input type="text" id="nom"><br>
+
+    <label for="prenom">Prenom</label>
+    <input type="text" id="prenom" name="prenom"> <br>
+</form>
+
+
+<from> 
+
+   <p> Formation </p> 
+   <input type="radio" id="initiale" name="type formation" value="initiale">
+   <label for="initiale">initiale</label>  
+  
+   <input type="radio" id="Continue" name="type formation" value="Continue">
+   <label for="Continue">Continue</label><br><br>
+ 
+</from>
+
+
+
+<from>
+<label for="Cursus-select"> Cursus </label>
+<select name="Cursus" id="Cursus-select">
+<option value="">--Please choose an option--</option>
+  
+  <option value="informatique">informatique</option>
+  <option value="scientifique">scientifique</option>
+  <option value="autre">Autre...</option><br>
+</select>
+</from>
+
+
+<form>
+<label for="comment"> commentaires </label>
+<textarea id="comment" name="comment"></textarea><br>
+</form>
+
+<section>
+   <button class="Envoyer" type="button"> Envoyer </button>
+   <button class="Effacer" type="effacer"> Effacer </button>
+
+</section>
+
+</section>    
+</body>
+
+</html>
