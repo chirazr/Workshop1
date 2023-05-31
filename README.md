@@ -1,2 +1,2 @@
 # Workshop1
-write Table using HTML
+write Table & formulaire using HTML 
